@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+.container {
+    width: min(100% - 40px, 1200px);
+    margin-inline: auto;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(24, 23, 32);
+}
