@@ -30,6 +30,7 @@ body {
 
 h1, h2, h3, p, span, li, label, .button {
     font-family: Arial, sans-serif;
+    color: #fff;
 }
 
 p, .button {
@@ -41,7 +42,6 @@ p, .button {
     height: 44px;
     width: 180px;
     line-height: 44px;
-    color: #fff;
     background-color: #0067ff;
     text-align: center;
     font-weight: 700;
@@ -116,7 +116,7 @@ nav ul li a:hover::before {
     display: flex;
     place-items: center;
     position: relative;
-    height: calc(100svh - 60px - 60px);
+    height: calc(100svh - 60px);
     z-index: 9999;
     color: #fff;
 }
@@ -127,4 +127,23 @@ nav ul li a:hover::before {
 
 .hero-content p:last-of-type {
     padding-bottom: 30px;
+}
+
+/*==============================*/
+/* main                         */
+/*==============================*/
+
+.about h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+}
+
+.about p {
+    margin-bottom: 15px;
+}
+
+.about li {
+    font-size: 20px;
+    list-style: circle;
 }
