@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+/*==============================*/
+/* page                         */
+/*==============================*/
+
 .container {
     width: min(100% - 40px, 1200px);
     margin-inline: auto;
@@ -7,9 +11,120 @@
 
 body {
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background-color: rgb(24, 23, 32);
+}
+
+.flex {
+    display: flex;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+}
+
+.space-between, .footer-space {
+    justify-content: space-between;
+}
+
+h1, h2, h3, p, span, li, label, .button {
+    font-family: Arial, sans-serif;
+}
+
+p, .button {
+    font-size: 20px;
+}
+
+.button {
+    display: block;
+    height: 44px;
+    width: 180px;
+    line-height: 44px;
+    color: #fff;
+    background-color: #0067ff;
+    text-align: center;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.25s ease-in-out;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #1473ff;
+    color: #fff;
+}
+
+/*==============================*/
+/* header                       */
+/*==============================*/
+
+header h1 {
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 60px;
+    z-index: 9999;
+    cursor: default;
+    list-style: none;
+}
+
+h1 a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+ul {
+    gap: 20px;
+}
+
+nav ul li {
+    line-height: 60px;
+    cursor: default;
+    list-style: none;
+}
+
+nav ul li a {
+    position: relative;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.25s ease-in-out;
+    color: #fff;
+}
+
+nav a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #fff;
+    transition: 0.3s;
+}
+
+nav ul li a:hover::before {
+    width: 100%;
+    color: rgb(0 0 0 / 0.6);
+}
+
+.hero-content {
+    display: flex;
+    place-items: center;
+    position: relative;
+    height: calc(100svh - 60px - 60px);
+    z-index: 9999;
+    color: #fff;
+}
+
+.hero-content h2 {
+    font-size: 80px;
+}
+
+.hero-content p {
+    padding-bottom: 30px;
 }
