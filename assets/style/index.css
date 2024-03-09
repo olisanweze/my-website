@@ -125,6 +125,6 @@ nav ul li a:hover::before {
     font-size: 80px;
 }
 
-.hero-content p {
+.hero-content p:last-of-type {
     padding-bottom: 30px;
 }
