@@ -274,7 +274,7 @@ footer i:hover {
 /* 400px and down */
 
 @media (max-width: 400px) {
-    h2 {
+    .hero-content h2, .about h2, .contact h2 {
         font-size: 50px;
     }
 }
