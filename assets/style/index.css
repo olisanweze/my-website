@@ -262,10 +262,6 @@ footer i:hover {
         font-size: 60px;
     }
 
-    .contact h2, .about h2 {
-        font-size: 50px;
-    }
-
     nav, .copyright {
         display: none;
     }
@@ -274,8 +270,8 @@ footer i:hover {
 /* 400px and down */
 
 @media (max-width: 400px) {
-    .hero-content h2, .about h2, .contact h2 {
-        font-size: 50px;
+    .hero-content h2 {
+        font-size: 60px;
     }
 }
 
