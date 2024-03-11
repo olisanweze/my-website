@@ -37,6 +37,10 @@ p {
     font-size: 20px;
 }
 
+h2 {
+    padding-bottom: 20px;
+}
+
 .button {
     font-size: 18px;
     display: block;
@@ -180,7 +184,7 @@ nav ul li a:hover::before {
 }
 
 .mobile-nav a:hover {
-    background-color: rgb(24 23 32 / 0.6);
+    background-color: rgb(24, 23, 32);
 }
 
 .landing-page {
