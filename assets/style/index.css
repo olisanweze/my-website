@@ -65,7 +65,7 @@ header h1 {
     color: #fff;
     text-transform: uppercase;
     line-height: 60px;
-    z-index: 9999;
+    z-index: 999;
     cursor: default;
     list-style: none;
 }
@@ -121,6 +121,7 @@ nav ul li a:hover::before {
     background: none;
     outline: none;
     border: none;
+    z-index: 900;
 }
 
 .hamburger-bar, .hamburger:before, .hamburger:after {
@@ -145,6 +146,42 @@ nav ul li a:hover::before {
     opacity: 0;
 }
 
+.mobile-nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 99;
+    background-color: rgb(24, 23, 32);
+    padding-top: 60px;
+    transition: all 0.25s ease-in-out;
+}
+
+.mobile-nav ul li {
+    list-style: none;
+}
+
+.mobile-nav.is-active {
+    left: 0;
+}
+
+.mobile-nav a {
+    display: block;
+    text-align: center;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 15px;
+    background-color: rgb(24, 23, 32);
+    color: #fff;
+    text-decoration: none;
+}
+
+.mobile-nav a:hover {
+    background-color: rgb(24, 23, 32 / 0.6);
+}
+
 .landing-page {
     background: hsl(0, 0%, 100%) url('../img/landing-page.jpg') center 30%/ cover no-repeat;
 }
@@ -154,7 +191,7 @@ nav ul li a:hover::before {
     place-items: center;
     position: relative;
     height: calc(100svh - 60px);
-    z-index: 9999;
+    z-index: 40;
     color: #fff;
 }
 
