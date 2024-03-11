@@ -253,10 +253,6 @@ footer i:hover {
     .hero-content h2 {
         font-size: 70px;
     }
-
-    p {
-        font-size: 18px;
-    }
 }
 
 /* 480px and down */
@@ -266,19 +262,19 @@ footer i:hover {
         font-size: 60px;
     }
 
-    nav, .copyright {
-        display: none;
+    .contact h2, .about h2 {
+        font-size: 50px;
     }
 
-    p {
-        font-size: 18px;
+    nav, .copyright {
+        display: none;
     }
 }
 
 /* 400px and down */
 
 @media (max-width: 400px) {
-    .hero-content h2 {
+    h2 {
         font-size: 50px;
     }
 }
