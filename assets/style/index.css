@@ -347,7 +347,11 @@ footer i {
 
 @media (max-width: 768px) {
     .hero-content h2 {
-        font-size: 70px;
+        font-size: 65px;
+    }
+
+    .about h2, .contact h2 {
+        font-size: 40px;
     }
 
     .about ul {
@@ -363,20 +367,17 @@ footer i {
 
 @media (max-width: 480px) {
     .hero-content h2 {
-        font-size: 60px;
+        font-size: 50px;
     }
 
     nav {
         display: none;
     }
-}
 
-/* 400px and down */
-
-@media (max-width: 400px) {
-    .hero-content h2 {
-        font-size: 60px;
+    .about h2, .contact h2 {
+        font-size: 30px;
     }
+    
 }
 
 /* hamburger icon */
