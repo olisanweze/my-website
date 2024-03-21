@@ -10,8 +10,7 @@
 }
 
 body {
-    height: 100vh;
-    background-color: rgb(24 23 32 / 0.9);
+    background-color: rgb(14 13 22 / 0.9);
 }
 
 .flex {
@@ -233,8 +232,7 @@ nav ul li a:hover::before {
 }
 
 article {
-    margin-bottom: 80px;
-    background-color: rgb(34 33 42 / 0.8);
+    background-color: rgb(34 33 42 / 0.2);
     padding: 80px 0;
 }
 
@@ -283,7 +281,8 @@ article {
 }
 
 .contact {
-    margin: 80px 0;
+    padding: 80px 0;
+    background-color: rgb(24 23 32 / 0.1);
     text-align: center;
 }
 
@@ -300,8 +299,7 @@ article {
 /*==============================*/
 
 footer {
-    height: 80px;
-    background-color: rgb(34, 33, 42);
+    background-color: rgb(14, 13, 22);
 }
 
 footer i {
