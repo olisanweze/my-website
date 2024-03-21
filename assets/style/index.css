@@ -10,9 +10,8 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
     height: 100vh;
-    background-color: rgb(24, 23, 32);
+    background-color: rgb(24 23 32 / 0.9);
 }
 
 .flex {
@@ -29,12 +28,16 @@ body {
 }
 
 h1, h2, h3, p, span, li, label, .button {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto Serif", serif;
     color: #fff;
 }
 
 p {
     font-size: 20px;
+}
+
+h1, h2 {
+    font-weight: 900;
 }
 
 h2 {
@@ -94,7 +97,7 @@ nav ul li {
 nav ul li a {
     position: relative;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 800;
     text-decoration: none;
     cursor: pointer;
     transition: color 0.25s ease-in-out;
@@ -231,7 +234,7 @@ nav ul li a:hover::before {
 
 article {
     margin-bottom: 80px;
-    background-color: rgb(34, 33, 42);
+    background-color: rgb(34 33 42 / 0.8);
     padding: 80px 0;
 }
 
@@ -239,12 +242,48 @@ article {
     margin-bottom: 15px;
 }
 
+.about p:last-of-type {
+    padding-bottom: 20px;
+}
+
 .about li {
-    font-size: 20px;
+    font-size: 22px;
+}
+
+.tech i {
+    padding-right: 10px;
+}
+
+.tech {
+    font-weight: 600;
+}
+
+.fa-html5 {
+    color: #e34f26;
+}
+
+.fa-css3-alt {
+    color: #1473ff;
+}
+
+.fa-js {
+    color: #f0db4f;
+}
+
+.fa-microsoft {
+    color: #007396;
+} 
+
+.fa-react {
+    color: #008080;
+}
+
+.fa-database {
+    color: #00758f;
 }
 
 .contact {
-    margin: 80px 0 20px;
+    margin: 80px 0;
     text-align: center;
 }
 
@@ -262,17 +301,22 @@ article {
 
 footer {
     height: 80px;
+    background-color: rgb(34, 33, 42);
 }
 
 footer i {
     color: #fff;
-    font-size: 30px;
+    font-size: 25px;
     padding: 20px 0 15px;
     transition: all 0.25s ease-in-out;
 }
 
-footer i:hover {
-    color: #1473ff;
+.fa-github:hover {
+    color: #6e6e6e;
+}
+
+.fa-linkedin:hover {
+    color: #0077b5;
 }
 
 .copyright {
@@ -307,6 +351,14 @@ footer i:hover {
     .hero-content h2 {
         font-size: 70px;
     }
+
+    .about ul {
+        display: block;
+    }
+
+    .about li {
+        padding-bottom: 10px;
+    }
 }
 
 /* 480px and down */
@@ -316,7 +368,7 @@ footer i:hover {
         font-size: 60px;
     }
 
-    nav, .copyright {
+    nav {
         display: none;
     }
 }
