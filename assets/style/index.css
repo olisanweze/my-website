@@ -378,6 +378,9 @@ footer i {
         font-size: 30px;
     }
     
+    .about li {
+        font-size: 18px;
+    }
 }
 
 /* hamburger icon */
