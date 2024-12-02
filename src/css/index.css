@@ -90,7 +90,7 @@ header {
   background-color: rgb(24, 23, 32);
   z-index: 99;
   position: sticky; 
-  top: 0;  
+  top: 60px;  
   width: 100%;
 }
   
@@ -505,7 +505,7 @@ footer .fa-socials {
 
 @media (max-width: 480px) {
   .hero-content h2 {
-    font-size: 50px;
+    font-size: 35px;
   }
 
   nav {
@@ -518,6 +518,10 @@ footer .fa-socials {
   
   .about li {
     font-size: 18px;
+  }
+
+  article {
+    padding: 40px 0;
   }
 }
 
