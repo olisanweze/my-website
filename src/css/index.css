@@ -479,8 +479,12 @@ footer .fa-socials {
     font-size: 65px;
   }
 
-  .article-section {
-    height: 80dvh;
+  .about ul {
+    display: block;
+  }
+
+  .about li {
+    padding-bottom: 10px;
   }
 }
 
@@ -492,7 +496,7 @@ footer .fa-socials {
   }
 
   .article-section {
-    height: 95dvh;
+    height: 85dvh;
   }
 
   .about h2, .contact h2, .projects h2 {
