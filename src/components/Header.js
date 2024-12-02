@@ -34,6 +34,8 @@ function Header() {
     };
   }, []);
 
+  const resumePath = process.env.PUBLIC_URL + '/olisaeloka_ejike_nweze_resume (1).pdf';
+
   return (
     <>
       <header>
@@ -44,6 +46,7 @@ function Header() {
               <li><a href="#about">About Me</a></li>
               <li><a href="#projects">My Projects</a></li>
               <li><a href="#contact">Contact Me</a></li>
+              <li><a href={resumePath} target="_blank" rel="noopener noreferrer">My Resume</a></li>
             </ul>
           </nav>
           <button className="hamburger">
@@ -56,6 +59,7 @@ function Header() {
           <li><a href="#about" className="mobile-nav-link">About Me</a></li>
           <li><a href="#projects" className="mobile-nav-link">My Projects</a></li>
           <li><a href="#contact" className="mobile-nav-link">Contact Me</a></li>
+          <li><a href={resumePath} target="_blank" rel="noopener noreferrer" className="mobile-nav-link">My Resume</a></li>
         </ul>
       </nav>
     </>
