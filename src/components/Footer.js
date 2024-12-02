@@ -14,7 +14,7 @@ function Footer() {
                       </a>
                   </li>
                   <li>
-                      <a href="#" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.linkedin.com/in/olisa-nweze-709141275/" target="_blank" rel="noopener noreferrer">
                           <FontAwesomeIcon icon={faLinkedin} className="fa-socials"/>
                       </a>
                   </li>

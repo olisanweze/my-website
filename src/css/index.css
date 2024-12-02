@@ -474,6 +474,10 @@ footer .fa-socials {
   .hero-content h2 {
     font-size: 65px;
   }
+
+  .article-section {
+    height: 80dvh;
+  }
 }
 
 /* 768px and down */
@@ -486,7 +490,6 @@ footer .fa-socials {
   .article-section {
     height: 100dvh;
   }
-  
 
   .about h2, .contact h2, .projects h2 {
     font-size: 35px;
@@ -515,9 +518,13 @@ footer .fa-socials {
   .about h2, .contact h2, .projects h2 {
     font-size: 30px;
   }
+
+  p {
+    font-size: 16px;
+  }
   
   .about li {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   article {
