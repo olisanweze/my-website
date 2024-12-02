@@ -488,7 +488,7 @@ footer .fa-socials {
   }
 
   .article-section {
-    height: 100dvh;
+    height: 95dvh;
   }
 
   .about h2, .contact h2, .projects h2 {
@@ -529,6 +529,10 @@ footer .fa-socials {
 
   article {
     padding: 40px 0;
+  }
+
+  .button, .contact-button {
+    font-size: 15px;
   }
 }
 
