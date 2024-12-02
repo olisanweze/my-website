@@ -55,7 +55,7 @@ function Projects() {
   };
 
   return (
-    <section className="projects" id="projects">
+    <section className="projects container" id="projects">
       <h2>My Projects</h2>
       <div className='container'>
       <Slider {...settings}>

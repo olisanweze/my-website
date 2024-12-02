@@ -40,7 +40,7 @@ function Header() {
         <div className='container flex'>
           <h1 className="animated-heading">Olisa Nweze</h1>
           <nav>
-            <ul>
+            <ul className='display-flex'>
               <li><a href="#about">About Me</a></li>
               <li><a href="#projects">My Projects</a></li>
               <li><a href="#contact">Contact Me</a></li>
