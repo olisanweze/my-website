@@ -342,6 +342,10 @@ article {
   animation-delay: 2.6s;
 }
 
+.tech li:nth-child(8) {
+  animation-delay: 3.0s;
+}
+
 .fa-html5 {
   color: #e34f26;
 }
