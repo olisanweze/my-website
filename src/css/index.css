@@ -163,7 +163,7 @@ nav li a:hover {
   max-height: 100vh;
   z-index: 99;
   background-color: rgb(24, 23, 32);
-  padding-top: 80px;
+  padding-top: 20px;
   transition: all 0.25s ease-in-out;
 }
 
@@ -488,7 +488,7 @@ footer .fa-socials {
   }
   
 
-  .about h2, .contact h2 {
+  .about h2, .contact h2, .projects h2 {
     font-size: 35px;
   }
 
@@ -512,7 +512,7 @@ footer .fa-socials {
     display: none;
   }
 
-  .about h2, .contact h2 {
+  .about h2, .contact h2, .projects h2 {
     font-size: 30px;
   }
   
