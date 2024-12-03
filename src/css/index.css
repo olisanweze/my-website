@@ -147,7 +147,7 @@ nav li a:hover {
 }
 
 .hamburger.is-active:after {
-  transform: rotate(45deg) translate(-9px, -9px);
+  transform: rotate(45deg) translate(-6px, -6px);
 }
 
 .hamburger.is-active .hamburger-bar {
