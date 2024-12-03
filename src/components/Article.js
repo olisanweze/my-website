@@ -40,7 +40,7 @@ function Article() {
                 strings={[
                   'Hello! My name is Olisa Nweze. I am a software developer based in Winnipeg. I am currently enrolled in the Software Developer Program at MITT, Winnipeg. I have experience working with Front-End Technologies like HTML, CSS, and JavaScript. I create high quality and modern web applications. I pay great attention to the little details, and I am well versed in deploying various programming languages to provide solutions for you. Some technologies I work with include:' 
                 ]}
-                typeSpeed={60}
+                typeSpeed={80}
                 backSpeed={30}
                 onComplete={() => setIsTypingComplete(true)}
                 className="about"
