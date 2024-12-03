@@ -17,11 +17,11 @@ function Banner() {
             <Typed
               strings={[
                 'Transforming ideas into efficient solutions.',
-                'Creating better software and business tools for you.'
+                'Creating software and business tools for you.'
               ]}
               typeSpeed={50}
               backSpeed={30}
-              loop={false}
+              loop={true}
               onComplete={handleTypingComplete}
               className="about"
             />
