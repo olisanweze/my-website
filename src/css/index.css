@@ -137,21 +137,30 @@ nav li a:hover {
   display: block;
   width: 100%;
   height: 2px;
-  background-color: #fff;
   margin: 6px 0;
   transition: 0.3s;
 }
 
+.hamburger-bar {
+  background-color: #1473ff;
+}
+
+.hamburger:before, .hamburger:after {
+  background-color: #fff;
+}
+
 .hamburger.is-active:before {
-  transform: rotate(-45deg) translate(-6px, 6px);
+  transform: rotate(-90deg) translate(-18px, 7px);
+  background-color: #1473ff;
 }
 
 .hamburger.is-active:after {
-  transform: rotate(45deg) translate(-6px, -6px);
+  transform: rotate(90deg) translate(-11px, -14px);
 }
 
 .hamburger.is-active .hamburger-bar {
-  opacity: 0;
+transform: rotate(90deg);
+background-color: #fff;
 }
 
 .mobile-nav {
