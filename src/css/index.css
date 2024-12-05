@@ -487,6 +487,10 @@ footer .fa-socials {
   .hero-content h2 {
     font-size: 65px;
   }
+  
+  nav {
+    display: none;
+  }
 
   .about ul {
     display: block;
@@ -528,10 +532,6 @@ footer .fa-socials {
     font-size: 35px;
   }
 
-  nav {
-    display: none;
-  }
-
   .about h2, .contact h2, .projects h2 {
     font-size: 24px;
   }
@@ -555,7 +555,7 @@ footer .fa-socials {
 
 /* hamburger icon */
 
-@media (min-width: 480px) {
+@media (min-width: 992px) {
   .hamburger {
     display: none;
   }
