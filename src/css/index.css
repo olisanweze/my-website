@@ -170,10 +170,10 @@ background-color: #fff;
   top: 60px;
   left: 100%;
   width: 100%;
-  max-height: 100vh;
+  height: 50vh;
   z-index: 99;
   background-color: rgb(24, 23, 32);
-  padding-top: 20px;
+  padding-top: 10px;
   transition: all 0.25s ease-in-out;
 }
 
@@ -190,7 +190,7 @@ background-color: #fff;
   text-align: center;
   width: 100%;
   max-width: 200px;
-  margin: 0 auto 15px;
+  margin: 0 auto;
   background-color: rgb(24, 23, 32);
   color: #fff;
   text-decoration: none;
