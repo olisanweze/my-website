@@ -100,6 +100,7 @@ h1 {
   font-weight: 700;
   line-height: 60px;
   letter-spacing: 0.2px;
+  cursor: pointer;
 }
   
 nav ul {
@@ -487,10 +488,6 @@ footer .fa-socials {
   .hero-content h2 {
     font-size: 65px;
   }
-  
-  nav {
-    display: none;
-  }
 
   .about ul {
     display: block;
@@ -506,6 +503,10 @@ footer .fa-socials {
 @media (max-width: 768px) {
   .hero-content h2 {
     font-size: 60px;
+  }
+
+  nav {
+    display: none;
   }
 
   .article-section {
@@ -555,7 +556,7 @@ footer .fa-socials {
 
 /* hamburger icon */
 
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   .hamburger {
     display: none;
   }
