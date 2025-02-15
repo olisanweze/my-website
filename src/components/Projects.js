@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 function Projects() {
   const [repos, setRepos] = useState([]);
   const projectUrls = [
+    'https://aryval.io',
     'https://olisanweze.github.io/jobs-pool/',
     'https://fashion-fusion-store.netlify.app/',
     'https://github-finder-olisanweze.netlify.app/',
@@ -25,7 +26,7 @@ function Projects() {
     const urlParts = url.split('/'); return urlParts[urlParts.length - 2]; };
 
   useEffect(() => {
-    fetch('https://api.github.com/users/YOUR_GITHUB_USERNAME/repos')
+    fetch('https://api.github.com/users/olisanweze/repos')
       .then(response => response.json())
       .then(data => setRepos(data))
       .catch(error => console.error('Error fetching repos:', error));
