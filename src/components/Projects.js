@@ -64,7 +64,6 @@ function Projects() {
           <div key={index} className="project">
             <a href={url} target="_blank" rel="noopener noreferrer">
               <img src={`https://api.microlink.io/?url=${url}&screenshot=true&embed=screenshot.url`} alt={`Project ${index + 1}`} />
-              <h3>{getProjectName(url)}</h3>
             </a>
           </div>
         ))}

@@ -395,6 +395,10 @@ article {
   color: #666;
 }
 
+.slick-list {
+  padding: 10px 0;
+}
+
 .slick-slide {
   padding: 0 10px;
 }
